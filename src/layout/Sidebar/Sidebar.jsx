@@ -10,6 +10,7 @@ const Sidebar = () => {
   const [sidebarClass, setSidebarClass] = useState('');
   const { isSidebarOpen } = useContext(SidebarContext);
 
+  // Use effect to update the sidebar class based on the sidebar state
   useEffect(() => {
     if (isSidebarOpen) {
       setSidebarClass('sidebar-change');
