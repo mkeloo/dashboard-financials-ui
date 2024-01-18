@@ -37,5 +37,3 @@ const Sidebar = () => {
   );
 };
 export default Sidebar;
-
-// 18:11
